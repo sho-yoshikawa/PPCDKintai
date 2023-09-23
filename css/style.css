@@ -1,0 +1,14 @@
+body {
+    min-width: 480px;
+}
+h2 {
+    color: #FFFFFF;
+}
+#info-modal {
+    background-color: #17A2B8;
+    color: #FFFFFF;
+}
+#error-modal {
+    background-color: #DC3545;
+    color: #FFFFFF;
+}

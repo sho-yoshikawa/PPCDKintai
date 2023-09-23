@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PPCD勤怠入力",
+  "version": "1.0",
+  "description": "LY勤怠実績をCSVで取り込んで入力する",
+  "content_scripts": [{
+    "matches": ["https://www.ehr-dr.jp/*/attendance/monthlyTimeManagementUpdate.do*"],
+    "js": [
+      "jquery-3.7.1.min.js",
+      "content.js"
+    ]
+  }]
+}
