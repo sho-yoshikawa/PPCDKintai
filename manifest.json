@@ -8,6 +8,7 @@
     "js": [
       "jquery-3.7.1.min.js",
       "content.js"
-    ]
+    ],
+    "css": ["style.css"]
   }]
 }

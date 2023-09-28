@@ -8,10 +8,13 @@ window.addEventListener("load", async function() {
     input_form.id = "input-csv";
     e.appendChild(input_form);
 
+    // フォームとボタンに改行
+    e.appendChild(document.createElement('br'));
+
     var submit_button = document.createElement('input');
     submit_button.id = "submit-csv";
     submit_button.type = "button";
-    submit_button.value = "LY勤怠をセット";
+    submit_button.value = "LY勤怠実績をセット";
     e.appendChild(submit_button);
 
     submit_button.addEventListener("click", function () {
