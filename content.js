@@ -63,11 +63,13 @@ window.addEventListener("load", async function() {
             target.value = end_worktime;
             
             // 本人コメント（必須）
+            console.log(form_index);
             target_form_name = "item[" + String(form_index) + "].userComment";
             selector_name = 'textarea[name="' + target_form_name + '"]';
             target = document.querySelector(selector_name);
-            target.innerHTML = "打刻の修正しました。";
-
+            console.log(target);
+            target.innerHTML = "打刻の修正をしました。";
+            console.log(target.innerHTML);
             form_index += 1;
             worktime_index += 2;
         }
