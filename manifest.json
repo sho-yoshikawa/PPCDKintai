@@ -7,8 +7,19 @@
     "matches": ["https://www.ehr-dr.jp/*/attendance/monthlyTimeManagementUpdate.do*"],
     "js": [
       "jquery-3.7.1.min.js",
-      "content.js"
+      "ppcd.js"
     ],
-    "css": ["style.css"]
-  }]
+    "css": ["ppcd.css"]
+  },
+    {
+      "matches": [
+        "https://atnd-awj.ak4.jp/ja/attendance*"
+      ],
+      "js": [
+        "jquery-3.7.1.min.js",
+        "ly.js"
+      ],
+      "css": ["ly.css"]
+    }
+  ]
 }
